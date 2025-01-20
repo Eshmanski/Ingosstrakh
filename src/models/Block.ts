@@ -44,7 +44,6 @@ export default class Block {
     }
 
     static checkNode(el: HTMLElement) {
-        console.log(el)
         return el.dataset.type === 'block';
     }
 }
